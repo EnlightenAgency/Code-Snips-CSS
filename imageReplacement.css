@@ -1,0 +1,22 @@
+/* Full Image Replacement */
+
+.ir {
+	background-color: transparent;
+    background-repeat: no-repeat;
+	border: 0;
+	display: block;
+    direction: ltr;
+    overflow: hidden;
+    text-align: left;
+    text-indent: 105%;
+    white-space: nowrap;
+    *line-height: 0;
+}
+
+/* Short Version Image Replacement */
+
+.ir {
+	overflow: hidden;
+	text-indent: 105%;
+	white-space: nowrap;
+}
